@@ -96,4 +96,19 @@
     <string name="wake_on_gesture_title">Просыпаться от жестов</string>
     <string name="wake_on_gesture_summary">Экран блокировки вместо пульсирующих уведомлений при использовании жестов</string>
 
+    <string name="kcal_settings_title">Цвета дисплея</string>
+    <string name="kcal_settings_summary">Отрегулируйте цвета вашего дисплея</string>
+    <string name="kcal_enable_title">Включить настройку цветов дисплея</string>
+    <string name="kcal_enable_summary">Включает настройки цветов экрана для его редактирования</string>
+    <string name="kcal_not_supported">Настройки цвета дисплея не поддерживаются ядром</string>
+    <string name="red_slider_title">Красный</string>
+    <string name="green_slider_title">Зеленый</string>
+    <string name="blue_slider_title">Синий</string>
+    <string name="kcal_rgb_preference_category_title">RGB</string>
+    <string name="kcal_calibration_preference_category_title">Другие Настройки</string>
+    <string name="saturation_slider_title">Насыщенность</string>
+    <string name="reset_default_button_title">Сбросить настройки</string>
+    <string name="reset_default_button_summary">Сбрасывает все настройки цветов экрана</string>
+    <string name="contrast_slider_title">Контраст</string>
+
 </resources>
