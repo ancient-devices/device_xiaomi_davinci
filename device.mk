@@ -54,7 +54,8 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.bluetooth.default \
     audio.usb.default \
-    audio.r_submix.default
+    audio.r_submix.default \
+    libldacBT_bco
 
 PRODUCT_PACKAGES += \
     libqcompostprocbundle \
