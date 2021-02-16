@@ -23,6 +23,8 @@ BUILD_BROKEN_PREBUILT_ELF_FILES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 LOCAL_CHECK_ELF_FILES := false
 
+BOARD_VENDOR := xiaomi
+
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
 
