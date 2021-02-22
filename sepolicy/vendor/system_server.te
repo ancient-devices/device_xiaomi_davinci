@@ -1,2 +1,5 @@
 allow system_server debugfs_tracing_debug:file { getattr open read write };
 get_prop(system_server, vendor_camera_prop)
+
+# OTA updater
+allow system_server sdcardfs:file rw_file_perms;

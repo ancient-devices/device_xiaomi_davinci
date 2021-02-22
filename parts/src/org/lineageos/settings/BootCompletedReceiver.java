@@ -28,6 +28,7 @@ import androidx.preference.PreferenceManager;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.popupcamera.PopupCameraUtils;
 import org.lineageos.settings.utils.FileUtils;
+import org.lineageos.settings.vibrator.VibratorSettings;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
@@ -45,5 +46,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         boolean dcDimmingEnabled = sharedPrefs.getBoolean(DC_DIMMING_ENABLE_KEY, false);
         FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
+        VibratorSettings.restoreValue(context);
     }
 }

@@ -44,5 +44,11 @@
     <string name="dc_dimming_enable_title">DC Dimming</string>
     <string name="dc_dimming_enable_summary">Reduces eye strain in low light conditions</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming is currently not supported by the kernel</string>
-    
+
+    <!-- Vibration -->
+    <string name="vibration_control_title">Vibration control</string>
+    <string name="vibration_control_summary">Adjust the vibration strength</string>
+    <string name="vibration_reset">The default value is set</string>
+    <string name="vibration_control_description">Define the strength of the vibration for haptic feedback, incoming call and incoming notification</string>
+
 </resources>
