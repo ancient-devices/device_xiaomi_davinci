@@ -79,6 +79,8 @@ vendor/lib/libspkrprot.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libdirac.so
+vendor/lib/soundfx/libshoebox.so
 
 # Audio ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
