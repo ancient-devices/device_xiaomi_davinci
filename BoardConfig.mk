@@ -21,6 +21,9 @@ BUILD_BROKEN_DUP_RULES := true
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
 
+# MiuiCamera
+include vendor/miuicamera/common/BoardConfigVendor.mk
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -184,6 +187,10 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# Smartcharge
+TARGET_SMARTCHARGE_CONTROL_NODE := "sys/class/power_supply/battery/input_suspend"
+TARGET_SMARTCHARGE_REVERSE_LOGIC := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
