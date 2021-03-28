@@ -14,10 +14,20 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Max visible notification icons -->
-    <integer name="config_maxVisibleNotificationIcons">6</integer>
-    <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
-
     <!-- Color of the FOD view -->
-    <color name="config_fodColor">#00ffffff</color>
+    <color name="config_fodColor">#00ffff</color>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
+
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps</string>
+
+    <!-- Whether to show biometric help only when failed -->
+    <bool name="config_biometricHelpShowOnlyWhenFailed">true</bool>
+
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
 </resources>

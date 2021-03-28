@@ -61,6 +61,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+    system_ext/lib64/libwfdnative.so)
+        patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+        ;;
     product/lib64/libdpmframework.so)
         patchelf --add-needed "libshim_dpmframework.so" "${2}"
         ;;
