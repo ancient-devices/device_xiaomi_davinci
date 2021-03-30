@@ -1,0 +1,2 @@
+allow hal_power_stats_default sysfs:dir { search read open };
+allow hal_power_stats_default sysfs:file r_file_perms;
