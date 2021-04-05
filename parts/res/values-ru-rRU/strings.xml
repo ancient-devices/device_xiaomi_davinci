@@ -91,4 +91,9 @@
     <string name="vibration_control_summary">Настройте силу вибрации</string>
     <string name="vibration_reset">Установлено значение по-умолчанию</string>
     <string name="vibration_control_description">Настройте силу вибрации для тактильной отдачи, входящего звонка и входящего уведомления</string>
+
+    <!-- Doze settings -->
+    <string name="wake_on_gesture_title">Просыпаться от жестов</string>
+    <string name="wake_on_gesture_summary">Экран блокировки вместо пульсирующих уведомлений при использовании жестов</string>
+
 </resources>
