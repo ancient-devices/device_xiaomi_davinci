@@ -1,0 +1,2 @@
+allow vendor_location system_file:file rx_file_perms;
+allow vendor_hal_gnss_qti system_file:file rx_file_perms;

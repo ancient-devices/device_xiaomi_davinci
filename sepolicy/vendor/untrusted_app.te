@@ -1,0 +1,5 @@
+allow untrusted_app theme_prop:file r_file_perms;
+allow untrusted_app hal_memtrack_default:binder { call };
+allow untrusted_app debugfs_wakeup_sources:file { open getattr map read };
+allow untrusted_app input_device:dir { search };
+allow untrusted_app input_device:file rw_file_perms;
