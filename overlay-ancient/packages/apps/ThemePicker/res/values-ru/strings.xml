@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+ <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <!-- The name of this application, a theme picker. [CHAR LIMIT=50] -->
+     <string name="app_name">Стили &amp; Обои</string>
+     <string name="theme_title">Стили</string>
+     <string name="clock_title">Часы</string>
+     <string name="grid_title">Сетка</string>
+     <string name="apply_theme_btn">Применить</string>
+     <string name="edit_custom_theme_lbl">Нажмите, чтобы изменить</string>
+     <string name="keep_my_wallpaper">Использовать текущие обои</string>
+     <string name="apply_btn">Применить</string>
+     <string name="theme_preview_card_content_description">Предварительный просмотр стиля</string>
+     <string name="grid_preview_card_content_description">Предварительный просмотр сетки</string>
+     <string name="font_preview_content_description">Предпросмотр шрифта</string>
+     <string name="icon_preview_content_description">Предпросмотр значка</string>
+     <string name="color_preview_content_description">Предпросмотр цвета</string>
+     <string name="shape_preview_content_description">Предпросмотр формы</string>
+     <string name="option_applied_description"><xliff:g name="style_name">%1$s</xliff:g>, currently applied</string>
+     <string name="option_applied_previewed_description"><xliff:g name="style_name">%1$s</xliff:g>, currently applied and previewed</string>
+     <string name="option_previewed_description"><xliff:g name="style_name">%1$s</xliff:g>, currently previewed</string>
+     <string name="theme_font_example" translatable="false">ABC</string>
+     <string name="theme_description">Font: <xliff:g name="font_name">%1$s</xliff:g>, icons: <xliff:g name="icon_name">%2$s</xliff:g>, shape: <xliff:g name="shape_name">%3$s</xliff:g>, color: <xliff:g name="color_name">%4$s</xliff:g> </string>
+     <string name="default_theme_title">По умолчанию</string>
+     <string name="preview_name_font">Шрифт</string>
+     <string name="preview_name_icon">Значок</string>
+     <string name="preview_name_color">Цвет</string>
+     <string name="preview_name_shape">Форма</string>
+     <string name="preview_name_wallpaper">Обои</string>
+     <string name="font_card_title">ABC • abc • 123</string>
+     <string name="font_card_body">Добавьте любимые шрифты на каждый экран.</string>
+     <string name="grid_options_title">Выберите размер сетки</string>
+     <string name="grid_title_pattern"><xliff:g name="num_cols" example="1">%1$d</xliff:g>x<xliff:g name="num_rows" example="1">%2$d</xliff:g></string>
+     <string name="applied_theme_msg">Стиль настроен.</string>
+     <string name="applied_clock_msg">Часы настроены.</string>
+     <string name="applied_grid_msg">Сетка настроена.</string>
+     <string name="apply_theme_error_msg">Не удалось применить стиль.</string>
+     <string name="custom_theme_next">Далее</string>
+     <string name="custom_theme_previous">Назад</string>
+     <string name="custom_theme">Собственная</string>
+     <string name="custom_theme_title">Custom <xliff:g name="custom_num" example="1">%1$d</xliff:g></string>
+     <string name="custom_theme_fragment_title">Свой стиль</string>
+     <string name="custom_theme_delete">Удалить</string>
+     <string name="font_component_title">Выберите шрифт</string>
+     <string name="icon_component_title">Выберите значки</string>
+     <string name="color_component_title">Выберите цвет</string>
+     <string name="shape_component_title">Выберите форму значков</string>
+     <string name="name_component_title">Укажите название стиля</string>
+     <string name="icon_component_label">Icons <xliff:g name="component_number" example="1">%1$d</xliff:g></string>
+     <string name="font_component_option_thumbnail" translatable="false">Aa</string>
+     <string name="delete_custom_theme_confirmation">Удалить пользовательский стиль?</string>
+     <string name="delete_custom_theme_button">Удалить</string>
+     <string name="cancel">Отмена</string>
+     <string name="set_theme_wallpaper_dialog_message">Выбор стиля обоев</string>
+     <string name="use_style_instead_title">Use <xliff:g name="style_name">%1$s</xliff:g> instead?</string>
+     <string name="use_style_instead_body">The components you chose match the <xliff:g name="style_name">%1$s</xliff:g> style. Do you want to use <xliff:g name="style_name">%1$s</xliff:g> instead?</string>
+     <string name="use_style_button">Use <xliff:g name="style_name">%1$s</xliff:g></string>
+     <string name="no_thanks">Нет</string>
+     <string name="clock_preview_content_description"><xliff:g name="clock_name">%1$s</xliff:g> clock preview</string>
+     <string name="something_went_wrong">Произошла ошибка</string>
+     <string name="theme_preview_icons_section_title">Цвета и значки</string>
+     <string name="style_info_description">Используйте предпросмотр шрифтов, значков, форм и цветов</string>
+ </resources>

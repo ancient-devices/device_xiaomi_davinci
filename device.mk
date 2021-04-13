@@ -271,7 +271,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-syberia \
+    $(LOCAL_PATH)/overlay-ancient \
     $(LOCAL_PATH)/overlay-system
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
@@ -339,7 +339,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # sounds
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sounds/ClassicalTheme.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/ClassicalTheme.ogg \
-    $(LOCAL_PATH)/sounds/Staryj_telefon.mp3:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Staryj_telefon.mp3
+    $(LOCAL_PATH)/sounds/Staryj_telefon.mp3:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Staryj_telefon.mp3 \
+	$(LOCAL_PATH)/sounds/Pixie_Dust.mp3:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pixie_Dust.mp3
 
 # Telephony
 PRODUCT_PACKAGES += \
