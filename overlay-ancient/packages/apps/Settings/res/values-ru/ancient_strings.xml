@@ -549,8 +549,6 @@
    <string name="battery_bar_blend_color_title">Смешанный цвет</string>
    <string name="battery_bar_blend_color_summary">Смсешанные цвета на индикаторе в зависимости о уровня заряда</string>
    <string name="battery_bar_blend_color_reverse_title">Инвертировать порядок следования цвета</string>
-   <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
-   <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
 
    <!-- Option to enable/disable scrolling cache -->
    <string name="pref_scrollingcache_title">Кэш прокрутки</string>
@@ -640,7 +638,7 @@
    <string name="lockscreen_tuner_summary">Настройка ярлыков экрана блокировки</string>
 
    <!-- Themes -->
-   <string name="theming_title">Стили &amp; Обои</string>
+   <string name="theming_title">Стили и Обои</string>
    <string name="theme_select_title">Выбрать стиль темы AncientOS™</string>
    <string name="theme_select_summary">Просмотр и выбор тем</string>
 
@@ -759,6 +757,11 @@
    <string name="qs_bg_use_new_tint_summary">Вклчить оттенок цвета акцента для плиток быстрых настроек</string>
    <string name="qs_bg_use_disco">Плитки QS в стиле диско</string>
    <string name="qs_bg_use_disco_summary">Разноцветные плитки быстрых настроек</string>
+   <string name="qs_bg_disable_tint">Стиль фона не активных плиток QS</string>
+   <string name="qs_tile_bg_style1">По умолчанию</string>
+   <string name="qs_tile_bg_style2">Акцент</string>
+   <string name="qs_tile_bg_style3">Радуга</string>
+   <string name="qs_bg_act_new_tint">Стиль фона активных плиток QS</string>
 
    <!-- Accent color picker -->
    <string name="accent_color_title">Выбор цвета акцента</string>
@@ -1383,51 +1386,28 @@
 
     <!-- col styles -->
     <string name="collapsed_style_title">Стиь отображения аккаунта</string>
-    <string name="collapsed_dual_style_summary">Выбор стиля/string>
+    <string name="collapsed_dual_style_summary">Выбор стиля</string>
     <string name="collapse_style_1">Иконка</string>
     <string name="collapse_style_2">Свойства</string>
     <string name="collapse_style_3">Показать всё</string>
-    <string name="collapse_style_4"Ссртать всё</string>
+    <string name="collapse_style_4">Спрятать всё</string>
     <string name="collapsed_base_style_title">Сворачивать заголовок настроек</string>
     <string name="collapsed_base_style_summary">Выберите стиль</string>
     <string name="collapse_base_style_1">A12 Ancient</string>
     <string name="collapse_base_style_2">ONEUI Ancient</string>
-    <string name="collapsed_switch_title">Subsettings Collapsed Switch</string>
+    <string name="collapsed_switch_title">Сворачивать заголовок настроек</string>
     <string name="collapsed_switch_summary">Включить, чтобы cворачивался заголовок настроек</string>
 
     <!-- sb icon -->
     <string name="anci_staticon_title">Значки строки состояния</string>
     <string name="anci_staticon_style1">По умолчанию</string>
-    <string name="anci_staticon_style2">Circular</string>
-    <string name="anci_staticon_style3">Filled</string>
-    <string name="anci_staticon_style4">Kai</string>
-    <string name="anci_staticon_style5">Rounded</string>
-    <string name="anci_staticon_style6">Sam</string>
-    <string name="anci_staticon_style7">Victor</string>
-    <string name="anci_staticon_style8">Electro</string>
-    <string name="anci_staticon_style9">Stripe</string>
-    <string name="anci_staticon_style10">Egg</string>
-    <string name="anci_staticon_style11">Fence</string>
-    <string name="anci_staticon_style12">Ios</string>
-    <string name="anci_staticon_style13">TextBlock</string>
-    <string name="anci_staticon_style14">Satelite</string>
-    <string name="anci_staticon_style15">Line</string>
-    <string name="anci_staticon_style16">Leaf</string>
 
     <!-- shape icon -->
     <string name="anci_shapeicon_title">Форма Значков</string>
     <string name="anci_shapeicon_style1">По умолчанию</string>
-    <string name="anci_shapeicon_style2">Heart</string>
-    <string name="anci_shapeicon_style3">Pebble</string>
-    <string name="anci_shapeicon_style4">RoundedRect</string>
-    <string name="anci_shapeicon_style5">Square</string>
-    <string name="anci_shapeicon_style6">Squircle</string>
-    <string name="anci_shapeicon_style7">Taperedrect</string>
-    <string name="anci_shapeicon_style8">Teardrop</string>
-    <string name="anci_shapeicon_style9">Vessel</string>
 
     <!-- just overlays -->
-    <string name="qs_margin_style_title">Отсупы быстрых настроек/string>
+    <string name="qs_margin_style_title">Отсупы быстрых настроек</string>
     <string name="qs_margin_style1">По умолчанию</string>
     <string name="qs_margin_style2">Средние</string>
     <string name="qs_margin_style3">Большие</string>
@@ -1456,10 +1436,9 @@
     <string name="qs_tile_bg_actip_style1">Отключено</string>
     <string name="qs_tile_bg_actip_style2">Основной</string>
     <string name="qs_tile_bg_actip_style3">Радуга</string>
-    <string name="topad_style_summary"выдвиньте панель QS чтбы увидеть изменения</string>
+    <string name="topad_style_summary">выдвиньте панель QS чтбы увидеть изменения</string>
     <string name="tooltip_style_sum">0dp чтобы спрятать часы</string>
     <string name="tooltip_height_title">Отступы панели QS</string>
-    <string name="tooltip_height_sum"> </string>
 
     <!-- custo footer carrir label -->
     <string name="footercarrier_label_title">Логотип оператора</string>
@@ -1477,7 +1456,7 @@
     <string name="blur_quicksettings_subtitle">размывает затемненный фон за быстрыми настройками</string>
     <string name="qs_blur_alpha_title">Прозрачность размытия</string>
     <string name="qs_blur_alpha_summary">Задать прозрачность размытия</string>
-    <string name="qs_blur_intensity_title">Интенсивность размытия<</string>
+    <string name="qs_blur_intensity_title">Интенсивность размытия</string>
     <string name="qs_blur_intensity_summary">Задать интенсивность размытия</string>
 
     <!-- Brightness text -->
@@ -1520,5 +1499,17 @@
     <string name="always_on_display_schedule_sunrise">Рассвет</string>
     <string name="always_on_display_schedule_mixed_sunset">Включается от заката до определённого времени</string>
     <string name="always_on_display_schedule_mixed_sunrise">Включается от определённого времени до восхода</string>
+
+    <!-- sb styles -->
+    <string name="statusbar_dual_style_title">Стиль строки состояния</string>
+    <string name="statusbar_dual_style_summary">Выберите стиль</string>
+    <string name="statusbar_dual_style_def">По умолчанию</string>
+    <string name="statusbar_dual_style_1">Стиль Ios</string>
+    <string name="statusbar_dual_style_2">Двойная строка часы слева</string>
+    <string name="statusbar_dual_style_3">Двойная строка часы по центру</string>
+
+    <!-- AncientUI Sub Settings additions -->
+    <string name="ancient_accessibility_settings_summary">Настройки специальных возможностей</string>
+    <string name="ancient_storage_settings">Информация о хранилище вашего устройства</string>
 
 </resources>
