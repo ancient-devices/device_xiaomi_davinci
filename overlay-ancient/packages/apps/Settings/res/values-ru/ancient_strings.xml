@@ -1351,7 +1351,7 @@
     <string name="seetingsbg_style_21">Стиль 20</string>
 
     <!-- colepbg styles -->
-    <string name="ancicolepbg_style_title">Фнн заголовка</string>
+    <string name="ancicolepbg_style_title">Фон заголовка</string>
     <string name="ancicolepbg_style_summary">Выберите стиль</string>
     <string name="ancicolepbg_style_1">Прозрачный</string>
     <string name="ancicolepbg_style_2">Стиль 1</string>
@@ -1511,5 +1511,10 @@
     <!-- AncientUI Sub Settings additions -->
     <string name="ancient_accessibility_settings_summary">Настройки специальных возможностей</string>
     <string name="ancient_storage_settings">Информация о хранилище вашего устройства</string>
+
+    <string name="collapsed_bouncy_title">Bouncy</string>
+    <string name="collapsed_bouncy_summary">Переключить, чтобы использовать bouncy</string>
+    <string name="collapsed_bold_title">Уррать болд у заголовков</string>
+    <string name="collapsed_bold_summary">Нормальный стиль текста у заголовков</string>
 
 </resources>
