@@ -195,4 +195,7 @@ echo 2-5     > /dev/cpuset/restricted/cpus
 echo 0 > /sys/module/lpm_levels/parameters/sleep_disabled
 
 
+# Enable PowerHAL hint processing
+setprop vendor.powerhal.init 1
+
 setprop vendor.post_boot.parsed 1
