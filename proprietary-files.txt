@@ -46,6 +46,8 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio libraries
+lib/libxlog.so
+lib64/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
@@ -81,6 +83,7 @@ vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libdirac.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib/vndk/libxlog.so
 
 # Audio ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
