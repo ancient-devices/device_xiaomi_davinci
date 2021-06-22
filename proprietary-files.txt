@@ -875,7 +875,6 @@ vendor/lib64/libdiag.so|88c06b1376509d778c22943584a866641e6acdf2
 vendor/lib64/libdsutils.so|0b808cec6ac76ad5bd9465106a2646634bdcb14f
 vendor/lib64/libidl.so|fc66f186ea0a6726deac07f95407b4149c84d795
 vendor/lib64/libmdmdetect.so|d530949ed6ae8dea6c1c889ddaebae80f5a51c19
-vendor/lib64/libminkdescriptor.so|5abe994e87ce461a2aedc4a71e50f784e058340b
 vendor/lib64/libqcci_legacy.so|a5c9c3a4a23c848147006be46f6d42b7246b9e7a
 vendor/lib64/libqdi.so|fab3799d4d0527f89d8f5077a53c1f8334f95d1a
 vendor/lib64/libqdp.so|6db443ec6446e23fa74b92b8a2d173518b764503
@@ -892,7 +891,6 @@ vendor/lib/libdiag.so|04a1dd6a06e807b5f320bd5085c24c0c865d2672
 vendor/lib/libdsutils.so|c0127a7b9103a5aff651415919a7f305672642a9
 vendor/lib/libidl.so|303d2dab96b0344f47da3638fdf7ed25789d95f6
 vendor/lib/libmdmdetect.so|981fd718beebdae1f6ef7e15a479996dbc926f9d
-vendor/lib/libminkdescriptor.so|63b8295df30c551c21e53a38b593f448c190c550
 vendor/lib/libqcci_legacy.so|57d7e437c54b7be673676afc4ed15cf2b5da719e
 vendor/lib/libqdi.so|9062824b68072faa33b6c82dba24170b278c6fdb
 vendor/lib/libqdp.so|36d2ac1497702548777fdb23f684f32f56758c61
